@@ -1,0 +1,4 @@
+# custom built for 32 bit
+yuface==2023.5.1
+opencv-python-headless==4.8.1.78
+numpy==1.21.6

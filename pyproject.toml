@@ -1,0 +1,15 @@
+[project]
+name = "webcamHelper"
+description="NVDA add-on that helps you position yourself in front of the camera for video calls."
+version = "0.1"
+requires-python = "==3.7.*"
+authors = [{name = "Oleksii Sadovyi"}]
+license = {file = "COPYING.txt"}
+
+[tool.ruff]
+builtins = ["_", "ngettext", "pgettext", "npgettext"]
+exclude = [".venv", "3rdparty", ".git", "__pycache__", "build"]
+line-length = 110
+
+[tool.ruff.format]
+indent-style = "tab"
