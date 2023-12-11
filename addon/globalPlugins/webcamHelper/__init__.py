@@ -6,7 +6,8 @@ import sys
 
 sys.path.append(os.path.join(os.path.dirname(__file__), "3rdparty"))
 # ruff: noqa: E402
-import cv2
+# import cv2
+# on some machines cv2 binary extension seems to load only after certain time (antivirus?)
 import numpy as np
 from yuface import detect
 
@@ -19,6 +20,8 @@ addonHandler.initTranslation()
 
 
 def detect_face(frame):
+	import cv2  # ruff: noqa: E402
+
 	gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
 	confs, bboxes, landmarks = detect(frame, conf=0.8)
 	for bbox in bboxes:
@@ -128,6 +131,8 @@ class GlobalPlugin(globalPluginHandler.GlobalPlugin):
 				pass
 
 	def _doWebcamAnalysis(self):
+		import cv2  # ruff: noqa: E402
+
 		cap = cv2.VideoCapture(0)
 		if not cap.isOpened():
 			ui.message(_("Failed to open webcam"))
