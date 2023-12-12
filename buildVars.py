@@ -31,13 +31,13 @@ and if the lighting is too dark or too bright. It will also tell you
 if you are too close to the edge of the frame, which may indicate that you are too close to the edge of the camera's field of view."""
 	),
 	# version
-	"addon_version": "0.1",
+	"addon_version": "0.1.1",
 	# Author(s)
 	"addon_author": "Oleksii Sadovyi <lex.sadovyi@gmail.com>",
 	# URL for the add-on documentation support
-	"addon_url": None,
+	"addon_url": "https://github.com/OSadovy/webcam-helper-nvda-addon/",
 	# URL for the add-on repository where the source code can be found
-	"addon_sourceURL": None,
+	"addon_sourceURL": "https://github.com/OSadovy/webcam-helper-nvda-addon/",
 	# Documentation file name
 	"addon_docFileName": "readme.html",
 	# Minimum NVDA version supported (e.g. "2018.3.0", minor version is optional)
