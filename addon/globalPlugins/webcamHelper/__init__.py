@@ -97,7 +97,7 @@ def generate_instructions(face_position, face_gray, frame_shape):
 		distance_move,
 		lighting_advice,
 	]
-	return ", ".join(filter(None, instructions)) or "Face well positioned"
+	return ", ".join(filter(None, instructions)) or _("Face well positioned")
 
 
 class GlobalPlugin(globalPluginHandler.GlobalPlugin):
