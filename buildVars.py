@@ -62,7 +62,7 @@ if you are too close to the edge of the frame, which may indicate that you are t
 # pythonSources = ["addon/globalPlugins/*.py"]
 # For more information on SCons Glob expressions please take a look at:
 # https://scons.org/doc/production/HTML/scons-user/apd.html
-pythonSources = ["addon/globalPlugins/*"]
+pythonSources = ["addon/globalPlugins/webcamHelper/*.py"]
 
 # Files that contain strings for translation. Usually your python sources
 i18nSources = pythonSources + ["buildVars.py"]
