@@ -1,0 +1,119 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the 'webcamHelper' package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: 'webcamHelper' '0.1.1'\n"
+"Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
+"POT-Creation-Date: 2024-01-10 15:45-0500\n"
+"PO-Revision-Date: 2024-01-10 18:56-0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4.2\n"
+
+#. Threshold for low brightness
+#: addon\globalPlugins\webcamHelper\__init__.py:42
+msgid "The lighting is too dim, consider increasing it"
+msgstr "La iluminación está oscura, considera aumentarla"
+
+#. Threshold for high brightness
+#: addon\globalPlugins\webcamHelper\__init__.py:44
+msgid "The lighting is too bright, consider reducing it"
+msgstr "La iluminación está brillosa, considera reducirla"
+
+#: addon\globalPlugins\webcamHelper\__init__.py:50
+msgid "No face detected"
+msgstr "Ninguna cara detectada"
+
+#. Horizontal position
+#. More than 10% off center horizontally
+#: addon\globalPlugins\webcamHelper\__init__.py:66
+msgid "Move right"
+msgstr "Muévete hacia la derecha"
+
+#: addon\globalPlugins\webcamHelper\__init__.py:66
+msgid "Move left"
+msgstr "Muévete hacia la izquierda"
+
+#. Vertical position
+#. More than 10% off center vertically
+#: addon\globalPlugins\webcamHelper\__init__.py:70
+msgid "Move up"
+msgstr "Muévete hacia arriba"
+
+#: addon\globalPlugins\webcamHelper\__init__.py:70
+msgid "Move down"
+msgstr "Muévete hacia abajo"
+
+#: addon\globalPlugins\webcamHelper\__init__.py:75
+msgid "possible cropping on the left"
+msgstr "Posible recorte en la izquierda"
+
+#: addon\globalPlugins\webcamHelper\__init__.py:77
+msgid "possible cropping on the right"
+msgstr "Posible recorte en la derecha"
+
+#: addon\globalPlugins\webcamHelper\__init__.py:79
+msgid "possible cropping on the top"
+msgstr "Posible recorte en el extremo de arriba"
+
+#: addon\globalPlugins\webcamHelper\__init__.py:81
+msgid "possible cropping on the bottom"
+msgstr "Posible recorte en el extremo de abajo"
+
+#. More than 20% difference in area
+#: addon\globalPlugins\webcamHelper\__init__.py:88
+msgid "Move closer"
+msgstr "Acércate"
+
+#: addon\globalPlugins\webcamHelper\__init__.py:88
+msgid "Move back"
+msgstr "Retrocede"
+
+#: addon\globalPlugins\webcamHelper\__init__.py:110
+msgid "Starts continuous webcam analysis, press escape to cancel"
+msgstr "Inicia el análisis continuo de la cámara, pulsa escape para cancelar"
+
+#: addon\globalPlugins\webcamHelper\__init__.py:118
+msgid "Starting webcam analysis, press escape key to stop"
+msgstr ""
+"Iniciando el análisis de la cámara, pulsa la tecla escape para detener"
+
+#: addon\globalPlugins\webcamHelper\__init__.py:138
+msgid "Failed to open webcam"
+msgstr "Fallo al abrir la cámara"
+
+#: addon\globalPlugins\webcamHelper\__init__.py:160
+msgid "Webcam analysis stopped"
+msgstr "El análisis de la cámara se ha detenido"
+
+#. Add-on summary, usually the user visible name of the addon.
+#. Translators: Summary for this add-on
+#. to be shown on installation and add-on information found in Add-ons Manager.
+#: buildVars.py:23
+msgid "Webcam helper"
+msgstr "Ayudante de Webcam"
+
+#: buildVars.py:27
+msgid ""
+"This add-on helps you position yourself in front of the camera for video "
+"calls.\n"
+"It will tell you if you are too close or too far from the camera,\n"
+"if you are too much to the left or right, if you are too high or too low,\n"
+"and if the lighting is too dark or too bright. It will also tell you\n"
+"if you are too close to the edge of the frame, which may indicate that you "
+"are too close to the edge of the camera's field of view."
+msgstr ""
+"Este complemento te ayuda a posicionarte al frente de la cámara para las "
+"videollamadas. Se te indicará si estás lejos o cerca de la cámara, muy a "
+"la izquierda o a la derecha, muy arriba o abajo, y si la iluminación es "
+"oscura o brillosa. Además, también se te indicará si estás demasiado cerca "
+"del borde del recuadro, lo que significa que te encuentras muy cerca del "
+"borde del cuadro de visión de la cámara."
