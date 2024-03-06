@@ -1,108 +1,125 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the webcamHelper package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
-"POT-Creation-Date: 2023-12-13 10:51+0200\n"
-"PO-Revision-Date: 2023-12-14 09:28+0200\n"
+"Project-Id-Version: webcamHelper 0.1.1\n"
+"Report-Msgid-Bugs-To: nvda-translations@groups.io\n"
+"POT-Creation-Date: 2023-12-17 03:49+0800\n"
+"PO-Revision-Date: 2024-03-06 12:48+0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 3.4.1\n"
-"X-Poedit-Basepath: ../../../../../../../..\n"
-"X-Poedit-SearchPath-0: Downloads/webcam-helper-nvda-addon-master/addon/"
-"globalPlugins\n"
-"X-Poedit-SearchPath-1: AppData/Roaming/nvda/addons/webcamHelper/"
-"globalPlugins\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.4.2\n"
 
-#: AppData/Roaming/nvda/addons/webcamHelper/globalPlugins/webcamHelper/__init__.py:42
-#: Downloads/webcam-helper-nvda-addon-master/addon/globalPlugins/webcamHelper/__init__.py:42
+#. Threshold for low brightness
+#: addon\globalPlugins\webcamHelper\__init__.py:42
 msgid "The lighting is too dim, consider increasing it"
 msgstr "Освітлення занадто слабке, розгляньте можливість його збільшення"
 
-#: AppData/Roaming/nvda/addons/webcamHelper/globalPlugins/webcamHelper/__init__.py:44
-#: Downloads/webcam-helper-nvda-addon-master/addon/globalPlugins/webcamHelper/__init__.py:44
+#. Threshold for high brightness
+#: addon\globalPlugins\webcamHelper\__init__.py:44
 msgid "The lighting is too bright, consider reducing it"
 msgstr "Освітлення занадто яскраве, розгляньте можливість його зменшення"
 
-#: AppData/Roaming/nvda/addons/webcamHelper/globalPlugins/webcamHelper/__init__.py:50
-#: Downloads/webcam-helper-nvda-addon-master/addon/globalPlugins/webcamHelper/__init__.py:50
+#: addon\globalPlugins\webcamHelper\__init__.py:50
 msgid "No face detected"
 msgstr "Обличчя не виявлено"
 
-#: AppData/Roaming/nvda/addons/webcamHelper/globalPlugins/webcamHelper/__init__.py:66
-#: Downloads/webcam-helper-nvda-addon-master/addon/globalPlugins/webcamHelper/__init__.py:66
+#. Horizontal position
+#. More than 10% off center horizontally
+#: addon\globalPlugins\webcamHelper\__init__.py:66
 msgid "Move right"
 msgstr "Поверніть голову праворуч"
 
-#: AppData/Roaming/nvda/addons/webcamHelper/globalPlugins/webcamHelper/__init__.py:66
-#: Downloads/webcam-helper-nvda-addon-master/addon/globalPlugins/webcamHelper/__init__.py:66
+#: addon\globalPlugins\webcamHelper\__init__.py:66
 msgid "Move left"
 msgstr "Поверніть голову ліворуч"
 
-#: AppData/Roaming/nvda/addons/webcamHelper/globalPlugins/webcamHelper/__init__.py:70
-#: Downloads/webcam-helper-nvda-addon-master/addon/globalPlugins/webcamHelper/__init__.py:70
+#. Vertical position
+#. More than 10% off center vertically
+#: addon\globalPlugins\webcamHelper\__init__.py:70
 msgid "Move up"
 msgstr "Підніміть голову вище"
 
-#: AppData/Roaming/nvda/addons/webcamHelper/globalPlugins/webcamHelper/__init__.py:70
-#: Downloads/webcam-helper-nvda-addon-master/addon/globalPlugins/webcamHelper/__init__.py:70
+#: addon\globalPlugins\webcamHelper\__init__.py:70
 msgid "Move down"
 msgstr "Опустіть голову нище"
 
-#: AppData/Roaming/nvda/addons/webcamHelper/globalPlugins/webcamHelper/__init__.py:75
-#: Downloads/webcam-helper-nvda-addon-master/addon/globalPlugins/webcamHelper/__init__.py:75
+#: addon\globalPlugins\webcamHelper\__init__.py:75
 msgid "possible cropping on the left"
 msgstr "можливе обрізання зліва"
 
-#: AppData/Roaming/nvda/addons/webcamHelper/globalPlugins/webcamHelper/__init__.py:77
-#: Downloads/webcam-helper-nvda-addon-master/addon/globalPlugins/webcamHelper/__init__.py:77
+#: addon\globalPlugins\webcamHelper\__init__.py:77
 msgid "possible cropping on the right"
 msgstr "можливе обрізання справа"
 
-#: AppData/Roaming/nvda/addons/webcamHelper/globalPlugins/webcamHelper/__init__.py:79
-#: Downloads/webcam-helper-nvda-addon-master/addon/globalPlugins/webcamHelper/__init__.py:79
+#: addon\globalPlugins\webcamHelper\__init__.py:79
 msgid "possible cropping on the top"
 msgstr "можливе обрізання зверху"
 
-#: AppData/Roaming/nvda/addons/webcamHelper/globalPlugins/webcamHelper/__init__.py:81
-#: Downloads/webcam-helper-nvda-addon-master/addon/globalPlugins/webcamHelper/__init__.py:81
+#: addon\globalPlugins\webcamHelper\__init__.py:81
 msgid "possible cropping on the bottom"
 msgstr "можливе обрізання знизу"
 
-#: AppData/Roaming/nvda/addons/webcamHelper/globalPlugins/webcamHelper/__init__.py:88
-#: Downloads/webcam-helper-nvda-addon-master/addon/globalPlugins/webcamHelper/__init__.py:88
+#. More than 20% difference in area
+#: addon\globalPlugins\webcamHelper\__init__.py:88
 msgid "Move closer"
 msgstr "Занадто далеко"
 
-#: AppData/Roaming/nvda/addons/webcamHelper/globalPlugins/webcamHelper/__init__.py:88
-#: Downloads/webcam-helper-nvda-addon-master/addon/globalPlugins/webcamHelper/__init__.py:88
+#: addon\globalPlugins\webcamHelper\__init__.py:88
 msgid "Move back"
 msgstr "Занадто близько"
 
-#: AppData/Roaming/nvda/addons/webcamHelper/globalPlugins/webcamHelper/__init__.py:100
+#: addon\globalPlugins\webcamHelper\__init__.py:100
 msgid "Face well positioned"
 msgstr "Обличчя розташоване добре"
 
-#: AppData/Roaming/nvda/addons/webcamHelper/globalPlugins/webcamHelper/__init__.py:110
-#: Downloads/webcam-helper-nvda-addon-master/addon/globalPlugins/webcamHelper/__init__.py:110
+#: addon\globalPlugins\webcamHelper\__init__.py:110
 msgid "Starts continuous webcam analysis, press escape to cancel"
 msgstr ""
 "Починає безперервний аналіз веб-камери, натисніть клавішу escape, щоб "
 "скасувати"
 
-#: AppData/Roaming/nvda/addons/webcamHelper/globalPlugins/webcamHelper/__init__.py:118
-#: Downloads/webcam-helper-nvda-addon-master/addon/globalPlugins/webcamHelper/__init__.py:118
+#: addon\globalPlugins\webcamHelper\__init__.py:118
 msgid "Starting webcam analysis, press escape key to stop"
 msgstr "Аналіз веб-камери почато, натисніть клавішу Escape, щоб зупинити"
 
-#: AppData/Roaming/nvda/addons/webcamHelper/globalPlugins/webcamHelper/__init__.py:138
-#: Downloads/webcam-helper-nvda-addon-master/addon/globalPlugins/webcamHelper/__init__.py:138
+#: addon\globalPlugins\webcamHelper\__init__.py:138
 msgid "Failed to open webcam"
 msgstr "Не вдалося відкрити веб-камеру"
 
-#: AppData/Roaming/nvda/addons/webcamHelper/globalPlugins/webcamHelper/__init__.py:160
-#: Downloads/webcam-helper-nvda-addon-master/addon/globalPlugins/webcamHelper/__init__.py:160
+#: addon\globalPlugins\webcamHelper\__init__.py:160
 msgid "Webcam analysis stopped"
 msgstr "Аналіз веб-камери зупинено"
+
+#. Add-on summary, usually the user visible name of the addon.
+#. Translators: Summary for this add-on
+#. to be shown on installation and add-on information found in Add-ons Manager.
+#: buildVars.py:23
+msgid "Webcam helper"
+msgstr "Помічник веб-камери"
+
+#: buildVars.py:27
+msgid ""
+"This add-on helps you position yourself in front of the camera for video "
+"calls.\n"
+"It will tell you if you are too close or too far from the camera,\n"
+"if you are too much to the left or right, if you are too high or too low,\n"
+"and if the lighting is too dark or too bright. It will also tell you\n"
+"if you are too close to the edge of the frame, which may indicate that you "
+"are too close to the edge of the camera's field of view."
+msgstr ""
+"Це доповнення допоможе вам розташуватися перед камерою для відеодзвінків.\n"
+"Він повідомить вас, чи ви занадто близько чи занадто далеко від камери,\n"
+"ви занадто далеко вліво або вправо, ви занадто високі або занадто низькі,\n"
+"а також занадто темне або занадто яскраве освітлення. Він також повідомить "
+"вас\n"
+", ви занадто близько до краю кадру, що може свідчити про те, що ви занадто "
+"близько до краю поля зору камери."
