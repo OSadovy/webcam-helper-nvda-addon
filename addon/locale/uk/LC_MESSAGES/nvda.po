@@ -8,10 +8,10 @@ msgstr ""
 "Project-Id-Version: webcamHelper 0.1.1\n"
 "Report-Msgid-Bugs-To: nvda-translations@groups.io\n"
 "POT-Creation-Date: 2023-12-17 03:49+0800\n"
-"PO-Revision-Date: 2024-03-07 17:50+0300\n"
-"Last-Translator: \n"
-"Language-Team: Cary-Rowen\n"
-"Language: zh_CN\n"
+"PO-Revision-Date: 2024-03-08 14:38+0300\n"
+"Last-Translator: Volodymyr Pyrih <vp88.mobile@gmail.com>\n"
+"Language-Team: \n"
+"Language: uk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -21,88 +21,90 @@ msgstr ""
 #. Threshold for low brightness
 #: addon\globalPlugins\webcamHelper\__init__.py:42
 msgid "The lighting is too dim, consider increasing it"
-msgstr "灯光太暗，请考虑调亮一些"
+msgstr "Освітлення занадто слабке, розгляньте можливість його збільшення"
 
 #. Threshold for high brightness
 #: addon\globalPlugins\webcamHelper\__init__.py:44
 msgid "The lighting is too bright, consider reducing it"
-msgstr "灯光太亮，请考虑调暗一些"
+msgstr "Освітлення занадто яскраве, розгляньте можливість його зменшення"
 
 #: addon\globalPlugins\webcamHelper\__init__.py:50
 msgid "No face detected"
-msgstr "未检测到人脸"
+msgstr "Обличчя не виявлено"
 
 #. Horizontal position
 #. More than 10% off center horizontally
 #: addon\globalPlugins\webcamHelper\__init__.py:66
 msgid "Move right"
-msgstr "向右"
+msgstr "Перемістіться праворуч"
 
 #: addon\globalPlugins\webcamHelper\__init__.py:66
 msgid "Move left"
-msgstr "向左"
+msgstr "Перемістіться ліворуч"
 
 #. Vertical position
 #. More than 10% off center vertically
 #: addon\globalPlugins\webcamHelper\__init__.py:70
 msgid "Move up"
-msgstr "向上"
+msgstr "Перемістіться вище"
 
 #: addon\globalPlugins\webcamHelper\__init__.py:70
 msgid "Move down"
-msgstr "向下"
+msgstr "Перемістіться нижче"
 
 #: addon\globalPlugins\webcamHelper\__init__.py:75
 msgid "possible cropping on the left"
-msgstr "左侧可能被裁剪"
+msgstr "можливе обрізання зліва"
 
 #: addon\globalPlugins\webcamHelper\__init__.py:77
 msgid "possible cropping on the right"
-msgstr "右侧可能被裁剪"
+msgstr "можливе обрізання справа"
 
 #: addon\globalPlugins\webcamHelper\__init__.py:79
 msgid "possible cropping on the top"
-msgstr "上方可能被裁剪"
+msgstr "можливе обрізання згори"
 
 #: addon\globalPlugins\webcamHelper\__init__.py:81
 msgid "possible cropping on the bottom"
-msgstr "下方可能被裁剪"
+msgstr "можливе обрізання знизу"
 
 #. More than 20% difference in area
 #: addon\globalPlugins\webcamHelper\__init__.py:88
 msgid "Move closer"
-msgstr "距离太远，需要近一点"
+msgstr "Занадто далеко"
 
 #: addon\globalPlugins\webcamHelper\__init__.py:88
 msgid "Move back"
-msgstr "距离太进，需要远一点"
+msgstr "Занадто близько"
 
 #: addon\globalPlugins\webcamHelper\__init__.py:100
 msgid "Face well positioned"
-msgstr "面部位置合适"
+msgstr "Обличчя розташоване добре"
 
 #: addon\globalPlugins\webcamHelper\__init__.py:110
 msgid "Starts continuous webcam analysis, press escape to cancel"
-msgstr "已开始摄像头检测，按 ESC 取消"
+msgstr ""
+"Починає безперервний аналіз веб-камери, натисніть клавішу escape, щоб "
+"скасувати"
 
 #: addon\globalPlugins\webcamHelper\__init__.py:118
 msgid "Starting webcam analysis, press escape key to stop"
-msgstr "已开始摄像头检测，按 ESC 停止。"
+msgstr "Аналіз веб-камери почато, натисніть клавішу Escape, щоб зупинити"
 
 #: addon\globalPlugins\webcamHelper\__init__.py:138
 msgid "Failed to open webcam"
-msgstr "无法打开摄像头"
+msgstr "Не вдалося відкрити веб-камеру"
 
 #: addon\globalPlugins\webcamHelper\__init__.py:160
 msgid "Webcam analysis stopped"
-msgstr "已停止摄像头检测"
+msgstr "Аналіз веб-камери зупинено"
 
 #. Add-on summary, usually the user visible name of the addon.
 #. Translators: Summary for this add-on
 #. to be shown on installation and add-on information found in Add-ons Manager.
 #: buildVars.py:23
 msgid "Webcam helper"
-msgstr "摄像头助手"
+msgstr "Помічник веб-камери"
 
 #: buildVars.py:27
 msgid ""
@@ -114,6 +116,13 @@ msgid ""
 "if you are too close to the edge of the frame, which may indicate that you "
 "are too close to the edge of the camera's field of view."
 msgstr ""
-"这款插件可以帮助您在视频通话时正确调整摄像头位置。它会告诉您是否离摄像头太"
-"近或太远，是否左右偏移过多，是否高度过高或过低，以及光线是否过暗或过亮。此"
-"外，它还会提示您是否靠近画面边缘，这可能表示您靠近了摄像头视野的边缘。"
+"Це доповнення допоможе вам правильно розташуватися перед камерою при "
+"відеодзвінках.\n"
+"Воно підкаже вам, чи перебуваєте ви занадто близько або занадто далеко від "
+"камери,\n"
+"незалежно від того, перебуваєте ви занадто сильно зліва чи справа, ви "
+"занадто високі чи занадто низькі,\n"
+"якщо освітлення занадто темне або занадто яскраве, додаток також підкаже "
+"вам,\n"
+"якщо ви занадто близько до краю кадру, що може означати, що ви занадто "
+"близько до краю поля зору камери."
