@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: webcamHelper 0.1.1\n"
 "Report-Msgid-Bugs-To: nvda-translations@groups.io\n"
 "POT-Creation-Date: 2023-12-17 03:49+0800\n"
-"PO-Revision-Date: 2023-12-17 03:51+0800\n"
+"PO-Revision-Date: 2024-03-07 17:50+0300\n"
 "Last-Translator: \n"
 "Language-Team: Cary-Rowen\n"
 "Language: zh_CN\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 3.4.1\n"
+"X-Generator: Poedit 3.4.2\n"
 
 #. Threshold for low brightness
 #: addon\globalPlugins\webcamHelper\__init__.py:42
@@ -83,7 +83,7 @@ msgstr "面部位置合适"
 
 #: addon\globalPlugins\webcamHelper\__init__.py:110
 msgid "Starts continuous webcam analysis, press escape to cancel"
-msgstr "已开始摄像头检测，按 ESC 取消。"
+msgstr "已开始摄像头检测，按 ESC 取消"
 
 #: addon\globalPlugins\webcamHelper\__init__.py:118
 msgid "Starting webcam analysis, press escape key to stop"
