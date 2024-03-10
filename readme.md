@@ -2,6 +2,7 @@
 This addon for [NVDA], a free and open source screen reader for Microsoft Windows helps you to get a better shot at video calls by giving instructions about how to position yourself in front of camera. It uses facial recognition and image processing to detect if you are off to either side or vertically, as well as if the ilumination is enough.
 
 # Installation
+
 This addon contains binary dependencies which require Visual C++ Redistributable for 32-bit platform, [direct download from Microsoft](https://aka.ms/vs/17/release/vc_redist.x86.exe)
 
 # Usage
